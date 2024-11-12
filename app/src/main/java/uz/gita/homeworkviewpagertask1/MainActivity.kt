@@ -36,7 +36,8 @@ class MainActivity : AppCompatActivity() {
                     1 -> {
                         buttonBack.visibility = View.VISIBLE
                     }
-                    else -> {
+                    else -> {git commit -m "first commit"
+
                         buttonBack.visibility = View.VISIBLE
                     }
                 }
