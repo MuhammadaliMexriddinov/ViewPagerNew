@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         val dots = findViewById<WormDotsIndicator>(R.id.worm_dots_indicator)
         dots.attachTo(viewPager)
-
+//ali
         viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
                     1 -> {
                         buttonBack.visibility = View.VISIBLE
                     }
-                    else -> {git commit -m "first commit"
+                    else -> {
 
                         buttonBack.visibility = View.VISIBLE
                     }
